@@ -1,0 +1,15 @@
+<div class="card">
+  <slot></slot>
+</div>
+
+<style>
+  .card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 2rem 0;
+    padding: 4rem 5rem;
+    position: relative;
+  }
+  </style>
