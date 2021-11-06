@@ -64,9 +64,10 @@
   .rating li {
     position: relative;
     background: #f4f4f4;
-    width: 50px;
+    width: 100px;
     height: 50px;
     padding: 10px;
+    margin: 0 5px;
     text-align: center;
     border-radius: 50%;
     font-size: 19px;

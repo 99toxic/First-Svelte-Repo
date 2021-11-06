@@ -45,7 +45,7 @@
 <form on:submit|preventDefault={handleSubmit}>
   <RatingSelect on:rating-select={handleSelect} />
   <div class="input-group">
-    <input type="text" on:input={handleInput} bind:value = {text} placeholder="Tell us something that keeps you coming back">
+    <input type="text" on:input={handleInput} bind:value = {text}>
     <Button disabled={btnDisabled} type="submit">Send</Button>
   </div>
   {#if message}
